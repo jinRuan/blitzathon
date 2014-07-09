@@ -5,12 +5,24 @@
     <title>Home Page</title>
     <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
-<body>
-<h1>Dat Patent Viewer</h1>
+<body onload = "return random_color()">
+    <div id="posts">
+        <h1>The Incredible Patent Viewer</h1>
+    </div>
 
-
-
+    <div class="login">
+        <form>
+            <input type="text" name="Name" value="UserName">
+        </form>
+    </div>
+    <br>
+    <div class="login">
+        <input type="text" name="Name" value="UserName" id="secondInput">
+        <div id="loginButton"></div>
+    </div>
 
 </body>
 </html>

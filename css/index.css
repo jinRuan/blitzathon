@@ -1,5 +1,23 @@
 h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    margin-top: 10%;
+
+}
+
+#posts {
+    width:100%;
+    height: 1000px;
+}
+
+.login {
+    width: 20%;
+}
+
+#secondInput {
+    width: 90%;
+}
+
+#loginButton {
+    width: 10%;
+    color: blue;
 }
